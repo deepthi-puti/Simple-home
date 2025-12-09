@@ -283,6 +283,7 @@
         padding: 10px;
         font-size: 18px;
     }
+    
 }
 
 
@@ -291,6 +292,11 @@
     .background_image {
         background-position: center;
         height: 115vh;
+        width: 100%;
+    }
+    .background_image2{
+        background-position: center;
+        /* height: 115vh; */
         width: 100%;
     }
 
@@ -328,8 +334,6 @@
         width: 100%;
         height: auto;
     }
-
-
    
     .nav_button {
         width: 40vw;
@@ -385,6 +389,7 @@
         height: 80%;
         width: 80%;
     }
+    
 
 
 

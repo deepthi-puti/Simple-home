@@ -106,7 +106,7 @@
     border: 1px solid green;
     text-align: center; 
     /* align-self: center; */
-    padding: 5px;
+    /* padding: ; */
 }
 .but-div:hover{
     background-color: green;
@@ -123,7 +123,7 @@
     display: flex;
     padding: 5px 20px;
     margin: 0% 3%;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
 }
 .inner_main{

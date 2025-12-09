@@ -127,8 +127,9 @@
 
 }
 .inner_main{
-    gap: 30px;
+    gap: 20px;
     display: flex;
+    width: 50%;
     justify-content: space-evenly;
 }
 .card{
@@ -230,6 +231,7 @@
         padding: 10px;
         font-size: 18px;
     }
+    
 }
 
 
@@ -324,6 +326,11 @@
         text-align: center;
         padding: 10px;
     }
+     .inner_img{
+    width:70vw ;
+    height: 30vh;
+
+}
 
     .nav_button {
         width: 40vw;

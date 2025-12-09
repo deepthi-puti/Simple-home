@@ -1,0 +1,458 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Open Sans", Arial, sans-serif;
+    /* color: white; */
+    /* text-align: center; */
+}
+.background_image{
+    height: 100vh;
+    /* border: 2px solid red; */
+    background-image: url("https://templatemo.com/templates/templatemo_539_simple_house/img/simple-house-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 45%;
+    background-attachment: fixed;
+}
+.img1{
+    height: 10vh;
+    width: 60px;
+}
+.main{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    height: inherit;
+    margin-top: -20px;
+    /* margin-bottom: 100px; */
+    padding: 20px;
+}
+.nav_main{
+    display: flex;
+    list-style-type: none;
+    font-size: 17px;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: -35px;
+    /* padding: 3%; */
+    /* width: 65%; */
+}
+.nav_main1{
+    display: flex;
+    list-style-type: none;
+    font-size: 17px;
+    gap: 30px;
+    justify-content: space-between;
+    margin-top: -35px;
+    /* padding: 3%; */
+    /* width: 65%; */
+}
+
+.link,a{
+    color: white;
+    text-decoration: none;
+  position: relative;
+  font-size: 17px;
+  /* color: black; */
+}
+
+.link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px; 
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: width 0.4s ease-out;
+}
+
+.link:hover::after {
+  width: 100%;
+}
+.text-container{
+    height: 18vh;
+    /* border: 2px solid red; */
+    color: black;
+    text-align: center;
+    margin: 50px 120px;
+
+}
+.welcome-heading{
+    font-size: 30px;
+    margin-bottom: 2.5%;
+    font-weight: 100px;
+
+}
+.welcome_para{
+   font-size:17px ;
+   
+}
+.button-container{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    /* padding: 1%; */
+}
+.but-div{
+    height: 6.5vh;
+    width: 9vw;
+    /* text-decoration: none; */
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+    text-align: center; 
+    /* align-self: center; */
+    padding: 5px;
+}
+.but-div:hover{
+    background-color: green;
+    color: white;
+}
+.but-div:active{
+    background-color: green;
+    color: white;
+}
+.img_main{
+    /* border: 2px solid red; */
+    width: inherit;
+    height: 70vh;
+    display: flex;
+    padding: 5px 20px;
+    margin: 0% 3%;
+    justify-content: space-between;
+
+}
+.inner_main{
+    gap: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    height: inherit;
+    /* border: 2px solid green; */
+    width: 19vw;
+    /* padding: 5px 5px; */
+}
+.images{
+   width: inherit;
+    height: 35vh;
+    width: 18vw;
+}
+.card_des{
+    /* margin-top: 10px; */
+    padding: 10px;
+    /* line-height: 30px; */
+}
+.dish_name{
+    color: #1A6692;
+    font-size: 17.5px;
+}
+.dish_des{
+    font-size: 13.2px;
+    color: #626364;
+}
+.price{
+    color: #2F956D;
+}
+.last_card{
+    /* border: 2px solid rgb(76, 0, 255); */
+    width: inherit;
+    height: 45vh;
+    display: flex;
+    margin: 30px 60px;
+}
+.inner_card{
+    /* border: 2px solid red; */
+    width: auto;
+    padding: 10px;
+    /* text-align: center; */
+}
+.inner_img{
+    width:40vw ;
+    height: 40vh;
+
+}
+.nav_button{
+    margin-left: 60%;
+    color: #626364;
+    width: 10vw;
+    height: 5vh;
+    border: 1px solid #626364 ;
+    /* padding: 5px; */
+    text-align: center;
+    align-content: center;
+    font-size: 12px;
+}
+.nav_button:hover{
+    background-color: #626364;
+    color: white;
+}
+.footer{
+    /* border: 2px solid red; */
+    height: 15vh;
+    text-align: center;
+    align-content: center;
+    color: #626364;
+    font-size: 13px;
+}
+
+
+
+@media (max-width: 1024px) {
+     .background_image {
+        background-position: center;
+        height: 115vh;
+    }
+    .images {
+        width: 100%;
+        height: auto;
+    }
+
+    .card {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    .img_main {
+        /* flex-wrap: wrap; */
+        /* justify-content: center; */
+        gap: 20px;
+        height: auto;
+    }
+
+    .but-div {
+        width: 20vw;
+        height: auto;
+        padding: 10px;
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 680px) {
+
+    .background_image {
+        background-position: center;
+        height: 115vh;
+        width: 100%;
+    }
+
+    .main {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 20px;
+        padding-top: 40px;
+    }
+
+    .img1 {
+        width: 60px;
+        height: auto;
+    }
+
+
+    .nav_main {
+        flex-direction: row;
+        gap: 25px;
+        margin-top: 80%;
+        margin-bottom: -40%;
+    }
+    .nav_main1{
+        flex-direction: row;
+        gap: 25px;
+        margin-top: 150px;
+    }
+
+    .link {
+        font-size: 20px;
+    }
+
+    .text-container {
+        width: 90%;
+        margin: 60px auto 20px auto;
+    }
+
+    .welcome-heading {
+        font-size: 23px;
+    }
+
+    .button-container {
+        flex-wrap: wrap;
+    }
+
+    .but-div {
+        width: 35vw;
+        font-size: 18px;
+        height: auto;
+        padding: 10px;
+    }
+
+
+    .img_main {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        gap: 30px;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .images {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .last_card {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .inner_card {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .nav_button {
+        width: 40vw;
+        margin: 10px auto;
+        font-size: 14px;
+        height: auto;
+        padding: 10px;
+    }
+
+
+    .footer {
+        font-size: 12px;
+        padding-bottom: 40px;
+    }
+}
+.menu_section {
+    width: auto;
+}
+
+@media (max-width: 500px) {
+
+    .background_image {
+        background-position: center;
+        height: 115vh;
+        width: 100%;
+    }
+
+    /* .main {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 20px;
+        padding-top: 40px;
+    } */
+
+    .img1 {
+        width: 60px;
+        height: auto;
+    }
+
+    /* .nav_main {
+        flex-direction: row;
+        gap: 25px;
+        margin-top: 80%;
+        margin-bottom: -40%;
+    }
+    .nav_main1{
+        flex-direction: row;
+        gap: 25px;
+        margin-top: 150px;
+    } */
+
+    .link {
+        font-size: 20px;
+    }
+    .inner_main{
+        flex-direction: column;
+    }
+
+    .text-container {
+        width: 90%;
+        margin: 60px auto 20px auto;
+    }
+
+    .welcome-heading {
+        font-size: 23px;
+    }
+
+    .button-container {
+        flex-wrap: wrap;
+    }
+
+    .but-div {
+        width: 35vw;
+        font-size: 18px;
+        height: auto;
+        padding: 10px;
+    }
+
+    .img_main {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        gap: 30px;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .images {
+        width: 80%;
+        height: auto;
+    }
+
+
+    .last_card {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .inner_card {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+    .inner_img{
+    width:80vw ;
+    height: 30vh;
+
+}
+
+    .nav_button {
+        width: 40vw;
+        margin: 10px auto;
+        font-size: 14px;
+        height: auto;
+        padding: 10px;
+    }
+
+
+    .footer {
+        font-size: 12px;
+        padding-bottom: 40px;
+    }
+}
+
